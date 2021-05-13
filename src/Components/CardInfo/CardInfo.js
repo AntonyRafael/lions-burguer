@@ -5,7 +5,7 @@ const CardInfo = () => {
   return (
     <div className={styles.cardInfo}>
       <div className={styles.img}>
-        <img src="assets/porta.svg" />
+        <img src="assets/porta.svg" alt="Porta"/>
       </div>
       <div className={styles.infos}>
         <p>Funcionamento</p>

@@ -17,7 +17,7 @@ const Home = () => {
       <Banner />
       <div className="container">
         <section className={styles.historia}>
-          <img src="assets/frase-mtv.jpg" />
+          <img src="assets/frase-mtv.jpg" alt="Frase Historia" />
           <div className={styles.historiaInfo}>
             <h1>Um pouco da nossa história</h1>
             <ul>

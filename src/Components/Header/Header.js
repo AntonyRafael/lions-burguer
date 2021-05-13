@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header>
       <div className={`container ${styles.headerContainer}`}>
-        <img src="assets/LogoLion.svg" />
+        <img src="assets/LogoLion.svg" alt="Logo" />
         <nav>
           <ul>
             <li>
