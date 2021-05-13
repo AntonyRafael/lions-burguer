@@ -1,0 +1,41 @@
+.banner {
+    max-width: 100%;
+    position: relative;
+    height: 12rem;
+    background-image: url("./banner-image.png") ;
+    img {
+        position: absolute;
+        z-index: -1;
+        display: block;
+        max-width:100vw;
+    }
+
+    .infoBanner {
+        text-align: center;
+        color: var(--text-light);
+        padding-top: 2rem;
+
+        h1,p {
+            font-family: var(--type-second);
+            font-weight: 100;
+        }
+        h1 {
+            font-size: 2.25rem;
+            line-height: 1.4;
+        }
+
+        p {
+            margin: 0 auto;
+            max-width: 18.75rem;
+            opacity: .95;
+        }
+
+        button {
+            width: 10.375rem;
+            height: 2rem;
+            text-transform: uppercase;
+            margin: 1rem auto;
+            letter-spacing: 0.1rem;
+        }
+    }
+}

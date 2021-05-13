@@ -1,0 +1,41 @@
+{
+    "produtos": [
+        {
+            "title": "Simba",
+            "category": "Combo",
+            "description": "Pão macio, carne bovina suculenta de 150g recheada com muçarela, duplo cream cheddar, cebola caramelizada, bacon, onion rings, barbecue e molho especial Lions Burguer.",
+            "price": "19.90"
+        },
+        {
+            "title": "Alex",
+            "category": "Combo",
+            "description": "Pão macio, carne bovina suculenta de 150g recheada com muçarela, cream cheddar, bacon,barbecue e molho especial Lions Burguer",
+            "price": "23.90"
+        },
+        {
+            "title": "Mufasa",
+            "category": "Combo",
+            "description": "Pão macio, carne bovina suculenta de 150g recheada com muçarela, duplo cream cheddar, cebola caramelizada, bacon, onion rings, barbecue e molho especial Lions Burguer.",
+            "price": "27.90"
+        },
+        {
+            "title": "Nala",
+            "category": "Combo",
+            "description": "Pão macio, 150g de frango bem temperado, cheddar, cebola caramelizada, cebola roxa, alface americana, barbecue e molho especial Lions Burguer",
+            "price": "29.90"
+        },
+        {
+            "title": "Leão de Judá",
+            "category": "Combo",
+            "description": "Pão macio, 150g de frango bem temperado, cheddar, cebola caramelizada, cebola roxa, alface americana, barbecue e molho especial Lions Burguer",
+            "price": "35.90"
+        },
+        {
+            "title": "Aslan",
+            "category": "Combo",
+            "description": "Pão macio, 150g de frango bem temperado, cheddar, cebola caramelizada, cebola roxa, alface americana, barbecue e molho especial Lions Burguer",
+            "price": "25.90"
+        }
+    
+    ]
+}

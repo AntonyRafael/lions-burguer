@@ -1,0 +1,17 @@
+
+    .button {
+        background-color: #FD941F;
+        color: var(--text-light);
+        border-radius: 0.625rem;
+        padding: .5rem;
+        font-size: .75rem;
+        border: none;
+        transition: .3s;
+        cursor: pointer;
+        font-family: var(--type-first);
+
+        &:hover {
+            background-color: var(--green-dark);
+            color: var(--text-light-2);
+        }
+    }

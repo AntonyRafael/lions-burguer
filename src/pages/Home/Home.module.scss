@@ -1,0 +1,143 @@
+.historia {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  img {
+    width: 25rem;
+    max-width: 100%;
+    display: block;
+    margin-right: 1.25rem;
+  }
+
+  .historiaInfo {
+    position: relative;
+
+    h1 {
+      font-family: var(--type-second);
+      font-size: 2.25rem;
+      font-style: italic;
+    }
+
+    ul {
+      list-style: none;
+      margin-top: 1rem;
+      position: relative;
+
+      li {
+        position: relative;
+        line-height: 1.5;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        font-size: 1rem;
+
+        &:before {
+          content: "";
+          display: inline-block;
+          height: 8px;
+          width: 16px;
+          background-color: var(--yellow);
+          border-radius: 5px;
+          transform: translate(0%, -25%);
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+.cardapio {
+  margin-top: 2rem;
+
+  h1 {
+    text-align: center;
+    font-size: 2.25rem;
+    font-family: var(--type-second);
+
+    span {
+      color: var(--yellow);
+      position: relative;
+
+      &::after {
+        content: "";
+        height: 2px;
+        width: 100%;
+        background-color: var(--yellow);
+        position: absolute;
+        top: 100%;
+        right: 0;
+      }
+    }
+  }
+
+  .cardapioItens {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 1rem auto;
+
+      li {
+        width: 100px;
+        background-color: var(--text-light-2);
+        color: var(--green-dark);
+        padding: 0.25rem;
+        margin-right: 1rem;
+        cursor: pointer;
+        border-radius: 5px;
+
+        &:first-child {
+          background-color: var(--yellow);
+          color: var(--text-light);
+        }
+      }
+    }
+  }
+
+  .cardapioProd {
+    ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      li {
+        position: relative;
+        height: 8rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+
+        h1 {
+          text-align: left;
+          font-size: 1.5rem;
+          margin-bottom: 0.5rem;
+        }
+
+        span {
+          font-size: 0.875rem;
+          line-height: 1.4;
+        }
+        .price {
+          color: var(--yellow);
+          position: absolute;
+          top: 10%;
+          right: 5%;
+          font-size: 0.875rem;
+          transform: translate(0%, -50%);
+          font-family: var(--type-second);
+        }
+
+        &:after {
+          content: "";
+          height: 2px;
+          width: 100%;
+          background-color: #333;
+          opacity: .5;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+        }
+      }
+    }
+  }
+}

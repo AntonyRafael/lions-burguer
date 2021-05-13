@@ -1,0 +1,42 @@
+.cardInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  max-width: 18.75rem;
+  background-color: #848f69;
+  margin-top: 1rem;
+  padding: 1rem;
+  box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.5);
+
+  & + div {
+    margin: 0 1.25rem;
+    margin-top: 1rem;
+  }
+
+  .img {
+    width: 4rem;
+  }
+
+  .infos {
+    color: #f2eee6;
+    margin-left: 0.5rem;
+    position: relative;
+
+    p::after {
+      content: "";
+      height: 2px;
+      width: 50%;
+      background-color: #f2eee6;
+      position: absolute;
+      display: block;
+    }
+    p {
+      margin-bottom: 0.5rem;
+    }
+
+    span {
+      font-size: 0.875rem;
+    }
+  }
+}
