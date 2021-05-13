@@ -1,0 +1,38 @@
+.heading {
+  font-family: var(--type-second);
+  font-size: 2.25rem;
+  margin-top: 2rem;
+}
+.cadastro {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+
+  .formUp {
+    .wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+
+    button  {
+        width: 9.375rem;
+        height: 2.875rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        letter-spacing: 0.1rem;
+    }
+}
+a  {
+  display: block;
+  text-decoration: underline;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+}

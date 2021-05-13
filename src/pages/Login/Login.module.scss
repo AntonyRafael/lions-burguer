@@ -31,12 +31,10 @@
     margin-bottom: 1rem;
   }
 
-  span {
-    & + span {
+   a {
       display: block;
       text-decoration: underline;
     }
-  }
 
   img {
     display: block;

@@ -7,15 +7,15 @@ const Header = () => {
   return (
     <header>
       <div className={`container ${styles.headerContainer}`}>
-        <img src="assets/LogoLion.svg" alt="Logo" />
+        <Link to={"/"}><img src="assets/LogoLion.svg" alt="Logo" /></Link>
         <nav>
           <ul>
             <li>
               <Link to={"/"}>Home</Link>
             </li>
-            <li><Link to={"/"}>Sobre</Link></li>
-            <li><Link to={"/"}>Cardápio</Link></li>
-            <li><Link to={"/"}>Contato</Link></li>
+            <li><Link to={"/login"}>Login</Link></li>
+            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="#contato"> Contato</a></li>
             <Button text="Faça seu pedido" />
           </ul>
         </nav>

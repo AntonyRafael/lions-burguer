@@ -5,6 +5,7 @@ import Input from "../../Components/Input/Input";
 import styles from "./Login.module.scss";
 import useForm from "../../Hooks/useForm"
 import Button from "../../Components/Button/Button";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   
@@ -21,7 +22,7 @@ const Login = () => {
           <Input label="Senha" type="password" name="password" {...password} />
           <Button text="Login"/>
           <span>Ainda não se cadastrou ?</span>
-          <span>Cadastre-se agora</span>
+          <Link to={"/cadastro"}><span>Cadastre-se agora</span></Link>
         </div>
 
         <img src="assets/hamburguer.jpg" alt="Hamburguer"/>

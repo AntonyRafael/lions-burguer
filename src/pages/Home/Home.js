@@ -8,9 +8,7 @@ import MapContainer from "../../Components/MapContainer/MapContainer";
 import CardInfo from "../../Components/CardInfo/CardInfo";
 import Footer from "../../Components/Footer/Footer";
 
-
 const Home = () => {
-
   return (
     <>
       <Header />
@@ -34,7 +32,7 @@ const Home = () => {
           </div>
         </section>
 
-        <section className={styles.cardapio}>
+        <section className={styles.cardapio} id="cardapio">
           <h1>
             Confira nosso <span>saboroso</span> menu
           </h1>
@@ -61,10 +59,27 @@ const Home = () => {
           </div>
         </section>
         <MapContainer />
-        <section style={{display: 'flex'}}>
-          <CardInfo />
-          <CardInfo />
-          <CardInfo />
+        <section style={{ display: "flex" }}>
+          <CardInfo 
+            image="assets/navigator.svg"
+            alt="Porta"
+            title="Endereço"
+            text="Rua XXXXXX, 111, Centro -
+            Contagem MG"
+          />
+          <CardInfo
+            image="assets/porta.svg"
+            alt="Endereço"
+            title="Funcionamento"
+            text="Atendimento de Ter à Sex 18:00 às 00:00"
+          />
+          <CardInfo
+             image="assets/call.svg"
+             alt="Telefone"
+             title="Contato"
+             text="(31) 99999-9999
+             lionsburguer@gmail.com"
+          />
         </section>
       </div>
 
