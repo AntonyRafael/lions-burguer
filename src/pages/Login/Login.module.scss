@@ -1,8 +1,9 @@
 .login {
+
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.25rem;
-  margin-top: 2rem;
+  margin-top: 2rem !important;
 
   h1 {
     font-family: var(--type-second);

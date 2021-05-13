@@ -14,7 +14,7 @@ const Login = () => {
   return (
     <>
       <Header />
-      <div className={styles.login + " container"}>
+      <div className={ "container "+ styles.login }>
         <div>
         <h1>Faça seu <span>login</span></h1>
           <Input label="Usuário" type="text" name="username" {...username} />
