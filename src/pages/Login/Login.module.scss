@@ -4,6 +4,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 1.25rem;
   margin-top: 2rem !important;
+  height: calc(100vh - 16rem);
 
   h1 {
     font-family: var(--type-second);

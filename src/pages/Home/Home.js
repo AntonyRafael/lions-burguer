@@ -13,7 +13,7 @@ const Home = () => {
     <>
       <Header />
       <Banner />
-      <div className="container">
+      <div className="container animeLeft">
         <section className={styles.historia}>
           <img src="assets/frase-mtv.jpg" alt="Frase Historia" />
           <div className={styles.historiaInfo}>

@@ -21,7 +21,7 @@ const Cadastro = () => {
   return (
     <>
       <Header />
-      <div className="container">
+      <div className="container animeLeft">
         <h1 className={styles.heading}>Cadastre-se</h1>
 
         <div className={styles.cadastro}>

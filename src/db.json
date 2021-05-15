@@ -4,36 +4,42 @@
             "title": "Simba",
             "category": "Combo",
             "description": "Pão macio, carne bovina suculenta de 150g recheada com muçarela, duplo cream cheddar, cebola caramelizada, bacon, onion rings, barbecue e molho especial Lions Burguer.",
+            "image": "https://images.unsplash.com/photo-1586816001966-79b736744398?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
             "price": "19.90"
         },
         {
             "title": "Alex",
             "category": "Combo",
             "description": "Pão macio, carne bovina suculenta de 150g recheada com muçarela, cream cheddar, bacon,barbecue e molho especial Lions Burguer",
+            "image": "https://images.unsplash.com/photo-1586816001966-79b736744398?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
             "price": "23.90"
         },
         {
             "title": "Mufasa",
             "category": "Combo",
             "description": "Pão macio, carne bovina suculenta de 150g recheada com muçarela, duplo cream cheddar, cebola caramelizada, bacon, onion rings, barbecue e molho especial Lions Burguer.",
+            "image": "https://images.unsplash.com/photo-1586816001966-79b736744398?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
             "price": "27.90"
         },
         {
             "title": "Nala",
             "category": "Combo",
             "description": "Pão macio, 150g de frango bem temperado, cheddar, cebola caramelizada, cebola roxa, alface americana, barbecue e molho especial Lions Burguer",
+            "image": "https://images.unsplash.com/photo-1586816001966-79b736744398?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
             "price": "29.90"
         },
         {
             "title": "Leão de Judá",
             "category": "Combo",
             "description": "Pão macio, 150g de frango bem temperado, cheddar, cebola caramelizada, cebola roxa, alface americana, barbecue e molho especial Lions Burguer",
+            "image": "https://images.unsplash.com/photo-1586816001966-79b736744398?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
             "price": "35.90"
         },
         {
             "title": "Aslan",
             "category": "Combo",
             "description": "Pão macio, 150g de frango bem temperado, cheddar, cebola caramelizada, cebola roxa, alface americana, barbecue e molho especial Lions Burguer",
+            "image": "https://images.unsplash.com/photo-1586816001966-79b736744398?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
             "price": "25.90"
         }
     

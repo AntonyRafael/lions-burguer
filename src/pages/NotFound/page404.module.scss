@@ -1,0 +1,37 @@
+.notFound {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 15rem);
+
+    h1 {
+        font-family: var(--type-second);
+        font-size: 2.25rem;
+        line-height: 1.4;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    a {
+        text-transform: uppercase;
+        transition: all 0.5;
+        letter-spacing: 0.1rem;
+        
+        &:hover {
+            color: var(--yellow);
+        }
+    }
+
+    img {
+        width: 12rem;
+        max-width: 100%;
+        display: block;
+        margin: 1rem 0;
+    }
+
+    span {
+
+    }
+}
