@@ -1,0 +1,68 @@
+.produtoItem {
+  position: relative;
+  h1 {
+    font-family: var(--type-second);
+    font-size: 1.875rem;
+    font-weight: 700;
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0.5rem;
+
+    &:after {
+      content: "";
+      height: 2px;
+      width: 10%;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: var(--yellow);
+    }
+  }
+
+  .imageItem {
+    position: relative;
+    
+    & > img {
+      position: relative;
+      display: block;
+      max-width: 100%;
+      height: 15.625rem;
+      border-radius: 5px;
+      object-fit: cover;
+    }
+
+    .moreDetails {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--text-light);
+      position: absolute;
+      height: 1.75rem;
+      width: 1.75rem;
+      border-radius: 50%;
+      bottom: .5rem;
+      right: .5rem;
+      cursor: pointer;
+    }
+  }
+
+  button {
+    background-color: #FD941F;
+    color: var(--text-light);
+    width: 100%;
+    border-radius: 0.625rem;
+    padding: .5rem;
+    margin-top: 1rem;
+    font-size: 1.125rem;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+    font-family: var(--type-first);
+
+    &:hover {
+        background-color: var(--green-dark);
+        color: var(--text-light-2);
+    }
+  }
+}

@@ -16,7 +16,8 @@ const Header = () => {
             <li><Link to={"/login"}>Login</Link></li>
             <li><a href="#cardapio">Cardápio</a></li>
             <li><a href="#contato"> Contato</a></li>
-            <Button text="Faça seu pedido" />
+            <Link to={"/produtos"}> <Button text="Faça seu pedido" /></Link>
+            
           </ul>
         </nav>
       </div>
