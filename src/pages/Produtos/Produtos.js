@@ -5,6 +5,7 @@ import ProdutoItem from "./ProdutoItem";
 
 import { produtos } from "../../db.json";
 import styles from "./Produtos.module.scss";
+import ProductHelp from "../../Components/ProductHelp/ProductHelp";
 
 const Produtos = () => {
   return (
@@ -15,6 +16,7 @@ const Produtos = () => {
           <ProdutoItem array={produtos} />
         </ul>
       </div>
+      <ProductHelp />
       <Footer />
     </>
   );

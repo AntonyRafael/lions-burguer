@@ -43,7 +43,12 @@
       border-radius: 50%;
       bottom: .5rem;
       right: .5rem;
+      transition: all 0.3s;
       cursor: pointer;
+
+      &:hover {
+        background: var(--text-light-2);
+      }
     }
   }
 

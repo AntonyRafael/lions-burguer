@@ -1,0 +1,38 @@
+.ProductHelp {  
+    // position: absolute;
+    // bottom: calc(-100vh + 27rem);
+    // right: 10rem;
+    position: fixed;
+    bottom: 2rem;
+    left: calc(100vw - 15rem);
+
+    div {
+        display: flex;
+        width: 3.375rem;
+        height: 3.375rem;
+        margin-bottom: 1rem;
+        border-radius: 50%;
+        background: var(--text-light-2);
+        cursor: pointer;
+        transition: all 0.3s;
+        
+        & + div {
+            margin-bottom: 0rem;   
+        }
+
+        &:hover {
+            filter: hue-rotate(45deg);
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+            width: 1.625rem;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+     
+    }
+
+}
