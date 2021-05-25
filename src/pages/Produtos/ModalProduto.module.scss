@@ -1,0 +1,96 @@
+.modalPhoto {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  //idth: 100%;
+  //max-width: 40rem;
+  height: 50%;
+  background: rgba(89, 48, 27, 0.95);
+  z-index: 1000;
+  border-radius: 10px;
+
+  .modalImage {
+    position: relative;
+    margin: 0 1rem;
+
+    img {
+      display: block;
+      max-width: 100%;
+      border-radius: 5px;
+    }
+  }
+
+  .modalDetails {
+    display: flex;
+    flex-direction: column;
+
+    .close {
+      background: #f90;
+      border-radius: 5px;
+      width: 2rem;
+      height: 2rem;
+      right: 15%;
+      cursor: pointer;
+      position: absolute;
+      z-index: 3;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: var(--green-dark);
+      }
+
+      &:after {
+        content: "";
+        height: 1.875rem;
+        border-left: 2px solid #fff;
+        position: absolute;
+        transform: rotate(45deg);
+        left: 0.9375rem;
+      }
+
+      &:before {
+        content: "";
+        height: 1.875rem;
+        border-left: 2px solid #fff;
+        position: absolute;
+        transform: rotate(-45deg);
+        left: 0.9375rem;
+      }
+    }
+
+    h1 {
+      color: var(--yellow);
+      font-size: 2.25rem;
+      align-content: flex-start;
+      margin-bottom: 1rem;
+      position: relative;
+
+      &:after {
+        content: "";
+        height: 2px;
+        width: 10%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: var(--yellow);
+      }
+    }
+
+    p {
+      color: var(--text-light);
+      line-height: 1.4;
+      max-width: 18.75rem;
+      font-size: 1rem;
+    }
+
+    span {
+      margin-top: 1rem;
+      color: var(--yellow);
+      font-size: 1.125rem;
+      font-weight: bold;
+    }
+  }
+}

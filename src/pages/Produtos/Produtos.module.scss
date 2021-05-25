@@ -1,7 +1,9 @@
 .produtos {
+    position: relative;
     margin-top: 2rem;
     ul {
         display: grid;
+        position: relative;
         grid-template-columns: repeat(3,1fr);
         gap: 1.25rem;
     }
