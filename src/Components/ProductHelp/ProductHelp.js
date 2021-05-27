@@ -6,7 +6,7 @@ const ProductHelp = () => {
     return (
         <section className={styles.ProductHelp}>
             <HelpItem image="assets/up.svg" alt="Scroll Up" />
-            <HelpItem image="assets/cart.svg" alt="Carrinho"/>
+            {/* <HelpItem image="assets/cart.svg" alt="Carrinho"/> */}
         </section>
     )
 }
