@@ -1,5 +1,6 @@
 import React from "react";
 import { GlobalContext } from "../../CartContext";
+import Button from "../../Components/Button/Button";
 import Header from "../../Components/Header/Header";
 import Input from "../../Components/Input/Input";
 import TextArea from "../../Components/TextArea/TextArea";
@@ -31,9 +32,9 @@ const Pedido = () => {
 
   React.useEffect(() => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    trocoPayment =  Number(dinheiroPagamento.value) - (Number(totalCart) + 4);
+    trocoPayment = Number(dinheiroPagamento.value) - (Number(totalCart) + 4);
     setTroco(trocoPayment.toFixed(2));
-  },[dinheiroPagamento])
+  }, [dinheiroPagamento]);
 
   function handleChange({ target }) {
     setRadio(target.value);
@@ -191,7 +192,6 @@ const Pedido = () => {
                 )}
                 <li>Forma de pagamento: {radio}</li>
                 {radio === "dinheiro" && <li>Troco: R$ {troco}</li>}
-              
               </ul>
             </div>
 
@@ -206,6 +206,7 @@ const Pedido = () => {
               </ul>
             </div>
           </div>
+          <Button text="Confirmar"></Button>
         </div>
       </div>
     </>
