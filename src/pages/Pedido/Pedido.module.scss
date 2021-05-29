@@ -1,0 +1,206 @@
+.pedidoContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  // order Payment
+  .orderPayment {
+    color: var(--text-light);
+    padding: 0 2rem;
+    border-radius: 5px;
+    position: relative;
+    margin-right: 1rem;
+
+    h2 {
+      color: var(--text-light);
+      font-size: 1.125rem;
+    }
+
+    .payment {
+      background-color: var(--brown-light);
+      color: var(--text-light);
+      padding: 2rem 2rem 1rem 2rem;
+      border-radius: 5px;
+      position: relative;
+
+      // ? Escolha da forma de pagamento
+      form {
+        margin: 2rem 0;
+
+        .typePayment {
+          background-color: var(--text-light);
+          color: #333;
+          padding: .5rem;
+
+          input {
+            display: none;
+          }
+        }
+
+        .activePayment {
+          background-color: var(--yellow);
+          color: var(--text-light);
+          padding: .5rem;
+        }
+      }
+
+      .moneyMethod {
+        label {
+          color: var(--text-light);
+        }
+
+        input[name="troco"] {
+          border: none;
+          display: block;
+          width: 100%;
+          font-size: 1rem;
+          padding: 0.5rem;
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          border-radius: 0.4rem;
+          background: var(--text-light-2);
+          transition: 0.2s;
+        }
+
+        span {
+          position: relative;
+          color: #f31;
+          font-size: 0.875rem;
+        }
+      }
+
+      .cardMethod {
+        margin: 2rem 0;
+
+        h2 {
+          margin-bottom: 1rem;
+        }
+
+        .tipoCartao {
+          background-color: var(--text-light);
+          color: #333;
+          padding: .5rem;
+        }
+
+        input {
+          display: none;
+        }
+
+        .cartaoAtivo {
+          background-color: var(--yellow);
+          color: var(--text-light);
+          padding: .5rem;
+        }
+
+     
+      }
+    }
+    .orderObs {
+      background-color: var(--brown-light);
+      color: var(--text-light);
+      padding: 2rem 2rem 1rem 2rem;
+      border-radius: 5px;
+      margin-top: 1rem;
+      position: relative;
+
+      label {
+        color: var(--text-light);
+      }
+
+      textarea {
+        height: 12.5rem;
+      }
+     
+    }
+  }
+
+  .orderSummary {
+    background-color: var(--brown-light);
+    color: var(--text-light);
+    padding: 2rem 2rem 1rem 2rem;
+    border-radius: 5px;
+    position: relative;
+
+    p {
+      font-size: 1.125rem;
+    }
+
+    .orderHeader {
+      margin-bottom: 2rem;
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      img {
+        width: 30px;
+        padding-bottom: 0.5rem;
+      }
+
+      &::after {
+        content: "";
+        height: 2px;
+        width: 100%;
+        margin-top: 1rem;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        background-color: var(--text-light);
+      }
+    }
+
+    .orderDetails {
+      position: relative;
+      margin-bottom: 2rem;
+
+      p {
+        margin: 0.5rem 0;
+      }
+
+      ul {
+        padding-left: 1rem;
+        li {
+          margin-bottom: 0.5rem;
+        }
+      }
+
+      span {
+        padding-left: 1rem;
+      }
+
+      &::after {
+        content: "";
+        height: 2px;
+        width: 100%;
+        margin-top: 1rem;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        background-color: var(--text-light);
+      }
+    }
+
+    .orderDelivery {
+      p {
+        margin: 0.5rem 0;
+      }
+
+      ul {
+        padding-left: 1rem;
+        li {
+          margin-bottom: 0.5rem;
+        }
+      }
+
+      &::after {
+        content: "";
+        height: 2px;
+        width: 100%;
+        margin-top: 1rem;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        background-color: var(--text-light);
+      }
+    }
+  }
+}
