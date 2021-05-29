@@ -12,6 +12,8 @@ const ModalProduto = ({photo, setModalPhoto}) => {
     }
 
     return (
+        <div className={styles.modal}>
+
         <div className={styles.modalPhoto} >
             <div className={styles.modalImage}>
                 <img src={photo.image} alt={photo.title} />
@@ -23,6 +25,7 @@ const ModalProduto = ({photo, setModalPhoto}) => {
                 <p>{photo.description}</p>
                 <span>R$ {photo.price}</span>
             </div>
+        </div>
         </div>
     )
 }
