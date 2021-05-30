@@ -154,6 +154,7 @@ const Pedido = () => {
               type="text"
               name="dinheiro"
               placeholder="sem tomate..."
+              maxlength="150"
               {...observacoesPedido}
             />
           </div>
