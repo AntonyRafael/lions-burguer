@@ -42,4 +42,9 @@
     max-width: 100%;
     border-radius: 5px;
   }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
 }

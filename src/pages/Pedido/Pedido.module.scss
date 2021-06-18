@@ -94,6 +94,26 @@
      
       }
     }
+
+    .orderAddress {
+
+      background-color: var(--brown-light);
+      color: var(--text-light);
+      padding: 2rem 2rem 1rem 2rem;
+      border-radius: 5px;
+      margin-top: 1rem;
+      position: relative;
+
+      label {
+        color: var(--text-light);
+      }
+
+      .wrapper {
+        display: flex;
+        justify-content: space-evenly;
+      }
+    }
+
     .orderObs {
       background-color: var(--brown-light);
       color: var(--text-light);
@@ -107,7 +127,7 @@
       }
 
       textarea {
-        height: 12.5rem;
+        height: 9.375rem;
       }
      
     }
@@ -117,7 +137,7 @@
     background-color: var(--brown-light);
     color: var(--text-light);
     padding: 2rem 2rem 1rem 2rem;
-    // height: 43.75rem;
+     height: 50rem;
     max-height: 100%;
     border-radius: 5px;
     position: relative;

@@ -4,7 +4,7 @@ import Footer from '../../Components/Footer/Footer'
 import Header from '../../Components/Header/Header'
 import styles from './page404.module.scss'
 
-const page404 = () => {
+const Page404 = ({children}) => {
     return (
         <>
             <Header />
@@ -12,10 +12,11 @@ const page404 = () => {
                 <h1>Parece que voce foi além da fronteira !</h1>
                 <Link to={"/"}>Voltar para home ←</Link>
                 <img src="assets/mufasa-simba.png" alt="Rei leão"/>
+                {children}
             </div>
             <Footer />
         </>
     )
 }
 
-export default page404;
+export default Page404;

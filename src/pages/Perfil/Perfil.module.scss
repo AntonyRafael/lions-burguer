@@ -1,0 +1,20 @@
+.title {
+    margin-top: 2rem;
+}
+
+.gridItem {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .orderItem {
+        background-color: var(--brown);
+        margin: 1rem 1rem 1rem 0;
+        color: var(--text-light);
+        padding: 1rem;
+        border-radius: 5px;
+
+        p + p {
+            margin-top: .5rem;
+        }
+    }
+}
